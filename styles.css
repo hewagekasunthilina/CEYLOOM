@@ -272,6 +272,8 @@ h3 {
 }
 
 .product-card {
+  display: flex;
+  flex-direction: column;
   overflow: hidden;
   border: 1px solid var(--line);
   border-radius: 8px;
@@ -287,6 +289,7 @@ h3 {
 
 .product-card img {
   height: 235px;
+  flex-shrink: 0;
 }
 
 .product-card.featured {
@@ -357,6 +360,7 @@ h3 {
   display: grid;
   gap: 12px;
   padding: 0 20px 22px;
+  margin-top: auto;
 }
 
 .product-options {
